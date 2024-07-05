@@ -1,0 +1,3 @@
+#!/bin/csh -f
+set files = `find . \( -name '*.v' -o -name '*.[hyl]' \) -print`
+cscope -k -c $files
